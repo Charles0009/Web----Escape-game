@@ -1,0 +1,74 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Teko");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap");
+
+/* Navigation */
+header {
+ background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -200%,rgba(0,0,0,0) 75%) ;
+ text-align: center;
+ padding: 0px;
+ font-size: 1.25rem;
+}
+
+header li a {
+  display : inline-block;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+li {
+  display : inline-flex;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#index:hover , #about:hover , #jouer:hover , #score:hover, #histoire:hover{
+	background-color: #E9F7EF;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+#index:hover a  , #about:hover a , #jouer:hover a , #score:hover a, #histoire:hover a{
+	color: black;
+}
+
+/* Image de fond, gestion des textes */
+body{
+    background : url("Alcatraz.jpg") fixed no-repeat top right;
+    background-size : cover;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+ position: left;
+ padding: 1rem 0 0.5rem;
+ margin: 0 1.5rem;
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+h1 {
+  font-size : 55px;
+  font-family : "Bebas Neue";
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#scores{
+  font-size : 20px;
+  font-family : "Alice";
+  margin-left: 75px;
+}
+
+#liste_scores{
+  margin-left: 50px;
+  font-size : 30px;
+}

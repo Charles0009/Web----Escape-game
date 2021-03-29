@@ -1,0 +1,106 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Teko");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap");
+/* Navigation */
+header {
+ background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -200%,rgba(0,0,0,0) 75%) ;
+ text-align: center;
+ padding: 0px;
+ font-size: 1.25rem;
+}
+
+header li a {
+  display : inline-block;
+	font-size: 1.2em;
+  text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+li {
+  display : inline-flex;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#index:hover , #about:hover , #jouer:hover , #contact:hover, #histoire:hover{
+	background-color: #E9F7EF;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+#index:hover a  , #about:hover a , #jouer:hover a , #contact:hover a, #histoire:hover a{
+	color: black;
+}
+
+/* Image de fond, gestion des textes */
+body{
+    background : url("bridge.jpg") fixed no-repeat top right;
+    background-size : cover;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+ position: left;
+ padding: 1rem 0 0.5rem;
+ margin: 0 1.5rem;
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+h1 {
+  font-size : 55px;
+  font-family : "Bebas Neue";
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size : 23px;
+  font-family : "Playfair Display";
+  text-align: center;
+}
+
+/* Gestion du paragraphe introductif */
+
+.introduction {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  margin:30px 320px;
+  text-indent: 50px;
+  width: 720px;
+  /* background-color: rgb(254, 237, 193); */
+  text-align: justify;
+}
+.introduction :hover{
+  background-color: rgb(254, 237, 193);
+}
+
+
+/* Boutton jouer*/
+.boutton a{
+  display:block;
+  position: relative;
+  left : 45%;
+  top : 80%;/*60*/
+width:140px;/*120*/
+font-size:50px;/*30*/
+font-family : "Bebas Neue";
+color: white;
+line-height:25px;
+text-align:center;
+color:white;
+border: 3px solid whitesmoke;
+}
+.boutton a:hover {
+  /* color: rgb(112, 43, 46); */
+  border : 4px solid black;
+  color: black;
+}
